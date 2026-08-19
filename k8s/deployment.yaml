@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: devchuks/gitops-demo
+          image: devchuks/gitops-demo:v1
           ports:
             - containerPort: 80
